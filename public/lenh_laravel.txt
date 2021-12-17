@@ -1,0 +1,44 @@
+
+
+----------------------
+git pull hoặc là git pull origin master : lệnh đưa code mới nhất về
+database : car_vinfast l
+php artisan migrate                       :lệnh cập nhật database
+
+php artisan make:mode tên thư mục         : lệnh model
+php artisan make:controller tênthumucController --resource : lệnh controller
+
+-----------------------------------------------
+bên tấn sẽ dùng 4 câu lệnh trên để up lên git nhanh của tấn
+git status lệnh kiểm tra xem có gì thay đổi rồi
+git add -A lệnh đẩu lên
+git commit -m'nội dung update lên'
+git push origin master :folde đẩy lên
+---------------------------------------------------
+lấy code dũng về thì xem thì gồm các bước như sau
+git checkout tan
+git pull origin dung
+---------------------------abstract protected function methodName(parameters);
+lấy code dũng về thì xem thì gồm các bước như sau
+git checkout tan
+git pull origin dung
+---------------------------------------------
+
+
+mới Thêm
+php artisan make:seeder UserSeeder : lệnh tạo seed dùng để tạo sẵn k cần thiết dùng
+php artisan db:seed :: cập nhật bảng seed tất cả chỉ được 1 lần
+php artisan db:seed Ten+Seeder : cập nhật 1 bảng tránh lỗi
+php artisan make:migration create_admin_table : thêm bảng
+php artisan migrate : cập nhật bảng database
+git stash save  : quay lại lần push gần Nhất
+git pull origin tan --allow-unrelated-histories : cho phép trùng lặp
+php artisan migrate:rollback xoá bảng database
+php artisan migrate:reset chạy lại database
+
+---------------------------------------------
+web seed
+https://laravel.com/docs/8.x/seeding
+web migrate
+https://laravel.com/docs/8.x/migrations#introduction
+
